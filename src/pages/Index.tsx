@@ -100,7 +100,7 @@ const Index = () => {
                 <p className="text-muted-foreground">탭을 선택해서 각 기능을 체험해보세요!</p>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-2">
                 {features.map((feature, index) => (
                   <div key={index} className="animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                     <FeatureCard
